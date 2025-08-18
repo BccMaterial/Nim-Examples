@@ -41,7 +41,7 @@ when isMainModule:
         echo("Operador inválido. Use: +, -, *, /")
         continue
       
-      echo "Resultado: ", value
+      echo("Resultado: ", value)
       
     except ValueError:
       echo("Entrada inválida. Certifique-se de usar números.")
