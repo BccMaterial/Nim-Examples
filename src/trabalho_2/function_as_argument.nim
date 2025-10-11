@@ -10,5 +10,5 @@ proc calculadora(
   return operacao(a, b)
 
 # Usa a função 'calculadora' com diferentes operações
-echo("5 + 3 = ", calculadora(5, 3, soma))        # Resultado: 8
-echo("5 * 3 = ", calculadora(5, 3, multiplica))  # Resultado: 15
+echo("5 + 3 = ", calculadora(5, 3, soma))
+echo("5 * 3 = ", calculadora(5, 3, multiplica))
