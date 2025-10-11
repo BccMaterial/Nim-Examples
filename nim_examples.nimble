@@ -11,8 +11,8 @@ bin           = @[
                   "trabalho_1/types", 
                   "trabalho_1/custom_types",
 
-                  "trabalho_2/functional",
-                  "trabalho_2/function_as_argument"
+                  "trabalho_2/function_as_argument",
+                  "trabalho_2/high_order",
                 ]
 binDir        = "build"  
 
