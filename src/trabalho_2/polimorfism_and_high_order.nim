@@ -3,3 +3,6 @@ proc aplicarDuasVezes[T](x: T, f: proc(p: T): T): T = #T se refere a um tipo gen
 
 proc double(x: int): int = x * 2
 echo aplicarDuasVezes(3, double) #Deve retornar 12
+
+proc exclamacao(s: string): string = s & "!" #& é o operador de concatenação do Nim
+echo aplicarDuasVezes("Oi", exclamacao) #Deve retornar um "Oi!!"
