@@ -11,6 +11,7 @@ bin           = @[
                   "trabalho_1/types",
                   "trabalho_1/custom_types",
 
+                  "trabalho_2/basic_func",
                   "trabalho_2/polimorfism",
                   "trabalho_2/high_order",
                   "trabalho_2/polimorfism_and_high_order",
