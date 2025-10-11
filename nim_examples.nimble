@@ -10,7 +10,9 @@ bin           = @[
                   "trabalho_1/hello_world", 
                   "trabalho_1/types", 
                   "trabalho_1/custom_types",
-                  "trabalho_2/functional.nim"
+
+                  "trabalho_2/functional",
+                  "trabalho_2/function_as_argument"
                 ]
 binDir        = "build"  
 
