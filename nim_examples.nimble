@@ -13,7 +13,7 @@ bin           = @[
 
                   "trabalho_2/polimorfism",
                   "trabalho_2/high_order",
-				          "trabalho_2/polimorfism_and_high_order"
+                  "trabalho_2/polimorfism_and_high_order"
                 ]
 binDir        = "build"
 
