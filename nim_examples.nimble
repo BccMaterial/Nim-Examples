@@ -5,7 +5,13 @@ author        = "thiagopls1"
 description   = "Nim examples for paradigms classes"
 license       = "MIT"
 srcDir        = "src"
-bin           = @["simple_calculator", "hello_world", "types", "custom_types"]
+bin           = @[
+                  "trabalho_1/simple_calculator", 
+                  "trabalho_1/hello_world", 
+                  "trabalho_1/types", 
+                  "trabalho_1/custom_types",
+                  "trabalho_2/functional.nim"
+                ]
 binDir        = "build"  
 
 
