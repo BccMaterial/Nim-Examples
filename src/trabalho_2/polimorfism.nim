@@ -1,7 +1,6 @@
 # Aqui aplicamos polimorfismo na proc calculadora
 
 proc soma(x, y: int): int = x + y
-
 proc multiplica(x, y: int): int = x * y
 
 proc calculadora(
