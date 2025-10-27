@@ -18,10 +18,15 @@ bin           = @[
                   "trabalho_2/currying",
 
                   "trabalho_3/threads",
-                  "trabalho_3/sincronizacao"
+                  "trabalho_3/sync",
+                  "trabalho_3/corroutine",
+                  "trabalho_3/async"
                 ]
 binDir        = "build"
 
+task corroutine, "Compila corrotina com flags":
+    exec "nim c -d:nimCoroutines -o:build/corroutine src/trabalho_3/corroutine.nim"
+    exec "build/corroutine"
 
 # Dependencies
 requires "nim >= 2.0.8"
