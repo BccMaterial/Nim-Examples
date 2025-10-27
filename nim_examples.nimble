@@ -15,7 +15,12 @@ bin           = @[
                   "trabalho_2/polimorfism",
                   "trabalho_2/high_order",
                   "trabalho_2/polimorfism_and_high_order",
-                  "trabalho_2/currying"
+                  "trabalho_2/currying",
+
+                  "trabalho_3/comunicacao_threads",
+                  "trabalho_3/comunicacao_threads_alt",
+                  "trabalho_3/geracao_threads",
+                  "trabalho_3/sincronizacao",
                 ]
 binDir        = "build"
 
